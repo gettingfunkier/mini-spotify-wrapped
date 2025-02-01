@@ -52,14 +52,16 @@ calculate the overall index for each user.
 
 ## Interesting / tricky / subtle aspects of the code meriting further explanation
 1. The file “songs.txt” must follow this layout:
+   
 Song name;Artist;Album;Genre;Release year;# of plays
+
 …
 Example: (there’s an example file on the zip folder)
 Outro;Vulfpeck;Vollmilch;Funk;2012;58
 can you please take tim out?;Woody Goss;High Loon!;R&B/Soul;2023;60
 I'm Still Standing;Elton John;2Low4Zero;Rock;1985;38
 
-2. The one and only aspect of the code that wasn’t covered in lectures, but required for the program
+3. The one and only aspect of the code that wasn’t covered in lectures, but required for the program
 to function, is the presence of the math library. Its only use is, in line 229, to calculate the absolute
 value of the difference of the two genre indexes. This was put in place because the order in which
 genres appear is defined by the user themselves, and therefore this number can come out positive
@@ -68,7 +70,7 @@ Jazz and Classical, if Classical appears in the file first, the number will be n
 first the number will be positive, but both their absolute values are the same, and that’s the value
 we need.)
 
-3. There is one circumstance under which the defining taste section of the program will not work.
+4. There is one circumstance under which the defining taste section of the program will not work.
 This happens when the file only contains two songs, from different genres, and with the same
 number of plays. The explanation for this is, when calculating the second top genre, because the
 number of plays will be the same, it will simply replace the current genre with the previous, thus
