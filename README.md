@@ -52,11 +52,9 @@ calculate the overall index for each user.
 
 ## Interesting / tricky / subtle aspects of the code meriting further explanation
 1. The file “songs.txt” must follow this layout:
-   
 Song name;Artist;Album;Genre;Release year;# of plays
-
 …
-Example: (there’s an example file on the zip folder)
+Example: (there’s an example file on the repository)
 Outro;Vulfpeck;Vollmilch;Funk;2012;58
 can you please take tim out?;Woody Goss;High Loon!;R&B/Soul;2023;60
 I'm Still Standing;Elton John;2Low4Zero;Rock;1985;38
