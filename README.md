@@ -1,4 +1,4 @@
-# song-critic
+# Mini Spotify Wrapped
 FPP Report – Jimi Hamilton, Software Engineering G430
 
 ## What is it? A spotify wrapped alternative
