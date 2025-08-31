@@ -1,5 +1,5 @@
 # Mini Spotify Wrapped
-FPP Report – Jimi Hamilton, Software Engineering G430
+FPP Report – Software Engineering G430
 
 ## What is it? A spotify wrapped alternative
 The program can read a file, which should contain information about songs the user listens to. With
@@ -87,3 +87,9 @@ and so on, it was particularly interesting to figure out the ideal structure for
 taking into account that I wanted the program to keep running until the user decides to quit.
 3. I noticed that after two invalid inputs in the “genre artists” section, the program would simply
 backtrack a few loops. Thus, I decided to go along with it, and give it a bit of personality.
+
+## Acknowledgements
+
+This was my first coding project, built during the first semester of Year 1 Software Engineering for the course Computing Science 1CT. It represents the beginning of my journey into programming, where I combined my passion for music with the skills I was just starting to learn. The project achieved full marks, and I’m keeping it here unchanged as an archive of my early work. I won’t be updating or maintaining it beyond this version.
+
+Made by [gettingfunkier](https://github.com/gettingfunkier) . 2024 🤍
